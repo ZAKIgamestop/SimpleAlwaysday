@@ -1,0 +1,20 @@
+name: AlwaysDay
+version: 1.1.0
+api: 5.0.0
+main: AlwaysDay\Main
+author: ZakiGamestop
+description: Keep specific worlds always day.
+commands:
+  setalwaysday:
+    description: Enable or disable always day in a world
+    usage: "/setalwaysday <world> <on|off>"
+    permission: alwaysday.command
+  alwaysday:
+    description: AlwaysDay command menu
+    usage: "/alwaysday [info|dev]"
+    permission: alwaysday.command
+
+permissions:
+  alwaysday.command:
+    default: op
+
